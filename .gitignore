@@ -1,0 +1,35 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editors and temporary files
+*~
+*.bak
+*.tmp
+*.swp
+
+# KiCad local state and caches
+*-backups/
+*.kicad_prl
+*.kicad_pro-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+fp-info-cache
+
+# CMake and compiled firmware
+build/
+build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+*.elf
+*.bin
+*.hex
+*.uf2
+*.map
+*.dis
+
+# Python
+__pycache__/
+*.py[cod]

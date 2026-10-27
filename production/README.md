@@ -1,10 +1,11 @@
-# Production data
+# 製造データ
 
-製造出力を版ごとに保存します。
+Rev1.0の基板製作に使用したデータです。対応するKiCadソースは[hardware/](../hardware/)にあります。
 
-現在収録している`rev-candidate-20261003/`はレビュー専用で、発注禁止です。
-Gerber、ドリル、BOM、実装位置の各ファイルと、生成元KiCadファイルのSHA-256を
-同ディレクトリのREADMEに記録しています。
+| ファイル | 内容 |
+| --- | --- |
+| [1000base-t1-conv.zip](1000base-t1-conv.zip) | Gerber・ドリル出力 |
+| [bom.csv](bom.csv) | BOM（部品表） |
+| [positions.csv](positions.csv) | 実装位置データ（CPL） |
 
-正式版を公開するときは、未解決事項を完了し、版番号を確定した新しいディレクトリを
-作成してください。
+再製造する場合は、部品指定や未実装部品についての[既知事項](../docs/rev1.0-known-issues.md)を確認してください。

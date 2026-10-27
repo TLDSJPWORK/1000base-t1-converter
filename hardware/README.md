@@ -10,7 +10,7 @@ KiCad 9で作成した1000BASE-T1コンバーター本体の設計データで�
 - `RP2040.kicad_sch`: PHY管理マイコン
 - `Power.kicad_sch`: 電源回路
 
-製造用出力は設計ソースと混同しないよう、リポジトリ直下の`production/`へ分離しています。
+製造データは[production/](../production/)にあります。
 
 フットプリントと回路記号はKiCadファイルへ保存されています。3Dモデルの一部は
 EasyEDA2KiCadのライブラリを参照するため、完全な3D表示にはKiCadで`EASYEDA2KICAD`
